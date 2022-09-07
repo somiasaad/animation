@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.div1 {
+    width: 150px;
+    height: 100px;
+    position: relative;
+    background-color: rgb(160, 79, 79);
+    animation-name: change;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-direction: alternate;
+    border-radius: 10px 80px 100px;
+}
+
+@keyframes change {
+    0% {
+        top: 0px;
+        left: 0;
+        background-color: aqua;
+    }
+    50% {
+        top: 0px;
+        left: 1118px;
+    }
+    100% {
+        top: 0px;
+        left: 0px;
+    }
+}
+
+.div2 {
+    animation-delay: 2s;
+    margin-left: 1118px;
+    animation-name: change2;
+    animation-direction: alternate;
+}
+
+@keyframes change2 {
+    0% {
+        right: 0px;
+        background-color: aqua;
+    }
+    25% {
+        right: 500px;
+    }
+    75% {
+        right: 1118px;
+    }
+    100% {
+        right: 0px;
+    }
+}
+
+.d3 {
+    animation-delay: 4s;
+}
+
+.d4 {
+    animation-delay: 6s;
+}
+
+.d5 {
+    animation-delay: 8s;
+}
+
+.d6 {
+    animation-delay: 10s;
+}
+
+.d7 {
+    animation-delay: 12s;
+}
+
+.d8 {
+    animation-delay: 14s;
+}
